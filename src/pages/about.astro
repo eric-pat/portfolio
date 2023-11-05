@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos | Eric Patrouillault" description="À propos de Eric Patrouillault">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero title="À propos"
+				  tagline="Les détails sur mon parcours et mes compétences.">
+				<img width="1553" height="873" src="/assets/carousel-1.webp"
+					 alt="Eric travaille à la maison sur ses écrans d'ordinateur"/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Après seize années de service dévoué dans l'armée de terre, puis en tant que chauffeur PL,
+						magasinier, ou encore ouvrier de production, j'ai entrepris en 2020 une passionnante transition
+						professionnelle vers le développement web au sein de l'entreprise Zentux. Cette expérience m'a
+						permis d'explorer différentes technologies telles que l'EDI (échange de données informatisé),
+						HTML, CSS, ainsi que le système de gestion de contenu (CMS) 'Gaïa'. </p>
+					<p>
+						Je sors d'un bootcamp intense à la Wild Code School ou j'ai acquis des compétences avancées en
+						PHP et Symfony. </p>
+					<p>
+						Mon enthousiasme pour l'apprentissage continu m'incite à rester à l'affût des dernières avancées
+						technologiques, prêt à relever de nouveaux défis passionnants dans le domaine du développement
+						web. </p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>Wild Code School de bordeaux : Développeur web / php / symfony</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>Autonome, Organisé, Travail d'équipe, Polyvalent, Communication, travailleur et fiable...</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Cv</h2>
+				<div class="content">
+					<a href="/cv.pdf" target="_blank">mon Cv pdf</a>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA/>
+	</div>
+</BaseLayout>
+
+<style>
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    img {
+        margin-top: 1.5rem;
+        border-radius: 1.5rem;
+        box-shadow: var(--shadow-md);
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        color: var(--gray-200);
+    }
+
+    .section-title {
+        grid-column-start: 1;
+        font-size: var(--text-xl);
+        color: var(--gray-0);
+    }
+
+    .content {
+        grid-column: 2 / 4;
+    }
+
+    .content :global(a) {
+        text-decoration: 1px solid underline transparent;
+        text-underline-offset: 0.25em;
+        transition: text-decoration-color var(--theme-transition);
+    }
+
+    .content :global(a:hover),
+    .content :global(a:focus) {
+        text-decoration-color: currentColor;
+    }
+
+    @media (min-width: 50em) {
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 60% 1fr;
+        }
+
+        .about > :global(:first-child) {
+            grid-column-start: 2;
+        }
+
+        section {
+            display: contents;
+            font-size: var(--text-lg);
+        }
+    }
+</style>
