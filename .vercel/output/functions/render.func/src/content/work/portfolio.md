@@ -7,10 +7,11 @@ description: |
   Porfolio de Eric Patrouillault.
 tags:
   - Astro
-  - React
+  - Vercel
 ---
 
-Site personnel réalisé avec Astro et React.
+Site personnel réalisé avec Astro et hébergé sur Vercel.
+
 https://astro.build
 
 ```

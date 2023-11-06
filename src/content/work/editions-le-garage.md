@@ -4,7 +4,8 @@ publishDate: 2021-07-02 00:00:00
 img: /assets/editions-le-garage.webp
 img_alt: Image du site des Éditions le garage
 description: |
-  Site créé en collaboration avec l'entreprise Zentux (86), utilisant leur CMS Gaïa.
+  Site créé en collaboration avec l'entreprise Zentux (86),
+  en utilisant leur CMS Gaïa.
 tags:
   - CMS
   - Template

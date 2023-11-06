@@ -196,6 +196,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"epweb.md": {
+	id: "epweb.md";
+  slug: "epweb";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "portfolio.md": {
 	id: "portfolio.md";
   slug: "portfolio";
