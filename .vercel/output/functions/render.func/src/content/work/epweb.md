@@ -7,8 +7,9 @@ description: |
   Site créé pour moi...
 tags:
   - Symfony
+  - EasyAdmin
   - Bootstrap
   - o2switch
 ---
 
-Site personnel
+Site personnel avec backend easyadmin

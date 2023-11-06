@@ -164,7 +164,7 @@ function isPropagatedAssetsModule(module) {
 
 const contentDir = '/src/content/';
 
-const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_2b9dfb20.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_8dc544e5.mjs'),"/src/content/work/epweb.md": () => import('../epweb_ac478749.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_64b6e961.mjs')
+const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_2b9dfb20.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_8dc544e5.mjs'),"/src/content/work/epweb.md": () => import('../epweb_0ae8a766.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_64b6e961.mjs')
 
 });
 const contentCollectionToEntryMap = createCollectionToGlobResultMap({
@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","epweb":"/src/content/work/epweb.md","cse":"/src/content/work/cse.md","portfolio":"/src/content/work/portfolio.md","editions-le-garage":"/src/content/work/editions-le-garage.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","cse":"/src/content/work/cse.md","editions-le-garage":"/src/content/work/editions-le-garage.md","epweb":"/src/content/work/epweb.md","portfolio":"/src/content/work/portfolio.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -196,7 +196,7 @@ function createGlobLookup(glob) {
 	};
 }
 
-const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_d62daf32.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_18255540.mjs'),"/src/content/work/epweb.md": () => import('../epweb_b298c085.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_d7450c07.mjs')
+const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_d62daf32.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_18255540.mjs'),"/src/content/work/epweb.md": () => import('../epweb_4ec7827d.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_d7450c07.mjs')
 
 });
 const collectionToRenderEntryMap = createCollectionToGlobResultMap({
