@@ -3,14 +3,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import imgAbout from '../images/carousel-1.webp';
 ---
 
-<BaseLayout title="À propos | Eric Patrouillault" description="À propos de Eric Patrouillault">
+<BaseLayout title="Eric Patrouillault | À propos" description="À propos de Eric Patrouillault">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero title="À propos"
 				  tagline="Les détails sur mon parcours et mes compétences.">
-				<img width="1553" height="873" src="/assets/carousel-1.webp"
+				<img width="1553" height="873" src={imgAbout.src}
 					 alt="Eric travaille à la maison sur ses écrans d'ordinateur"/>
 			</Hero>
 
