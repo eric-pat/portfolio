@@ -13,7 +13,3 @@ tags:
 Site personnel réalisé avec Astro et hébergé sur Vercel.
 
 https://astro.build
-
-```
-
-```
