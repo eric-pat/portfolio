@@ -1,6 +1,6 @@
-import { i as isESMImportedImage, g as getImage$1, a as getConfiguredImageService, b as isRemotePath, c as isRemoteAllowed } from '../astro-assets-services_d08b78ec.mjs';
+import { i as isESMImportedImage, g as getImage$1, a as getConfiguredImageService, b as isRemotePath, c as isRemoteAllowed } from '../astro-assets-services_f72ae019.mjs';
 import mime from 'mime/lite.js';
-import { e as createAstro, f as createComponent, A as AstroError, p as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, g as addAttribute, s as spreadAttributes } from '../astro_9d89acda.mjs';
+import { e as createAstro, f as createComponent, A as AstroError, k as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, g as addAttribute, s as spreadAttributes } from '../astro_1aa3d2dc.mjs';
 import 'clsx';
 import 'html-escaper';
 

@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./portfolio_190b2942.mjs');
+						return import('./editions-le-garage_c3c366ab.mjs');
 					}
 					const collectedLinks = "@@ASTRO-LINKS@@";
 					const collectedStyles = "@@ASTRO-STYLES@@";

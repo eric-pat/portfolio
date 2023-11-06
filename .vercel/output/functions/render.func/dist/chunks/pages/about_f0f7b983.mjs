@@ -1,10 +1,24 @@
-import { e as createAstro, f as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead, g as addAttribute } from '../astro_9d89acda.mjs';
-import { b as $$Hero, a as $$BaseLayout } from './404_725f1d28.mjs';
-import { $ as $$ContactCTA } from './__1ab0619f.mjs';
-/* empty css                           */import 'clsx';
-import 'html-escaper';
-/* empty css                           *//* empty css                           */import '../astro-assets-services_d08b78ec.mjs';
-/* empty css                           *//* empty css                           *//* empty css                            */
+import { e as createAstro, f as createComponent, r as renderTemplate, m as maybeRenderHead, g as addAttribute, j as renderSlot, h as renderComponent } from '../astro_1aa3d2dc.mjs';
+import { $ as $$Icon, a as $$Hero, b as $$BaseLayout } from './404_ada6498a.mjs';
+import 'clsx';
+/* empty css                           *//* empty css                           */
+const $$Astro$2 = createAstro();
+const $$CallToAction = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  Astro2.self = $$CallToAction;
+  const { href } = Astro2.props;
+  return renderTemplate`${maybeRenderHead()}<a${addAttribute(href, "href")} data-astro-cid-balv45lp>${renderSlot($$result, $$slots["default"])}</a>`;
+}, "/Users/eric-pat/portfolio/src/components/CallToAction.astro", void 0);
+
+const $$Astro$1 = createAstro();
+const $$ContactCTA = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$ContactCTA;
+  return renderTemplate`${maybeRenderHead()}<aside data-astro-cid-rcdzuq3a><h2 data-astro-cid-rcdzuq3a>Intéressé par une collaboration ?</h2>${renderComponent($$result, "CallToAction", $$CallToAction, { "href": "mailto:contact@epweb.fr", "data-astro-cid-rcdzuq3a": true }, { "default": ($$result2) => renderTemplate`
+Envoyez-moi un message
+${renderComponent($$result2, "Icon", $$Icon, { "icon": "paper-plane-tilt", "size": "1.2em", "data-astro-cid-rcdzuq3a": true })}` })}</aside>`;
+}, "/Users/eric-pat/portfolio/src/components/ContactCTA.astro", void 0);
+
 const imgAbout = {"src":"/_astro/competences.18afa6bf.webp","width":1459,"height":973,"format":"webp","orientation":1};
 
 const $$Astro = createAstro();
@@ -27,4 +41,11 @@ Mon enthousiasme pour l'apprentissage continu m'incite à rester à l'affût des
 const $$file = "/Users/eric-pat/portfolio/src/pages/about.astro";
 const $$url = "/about";
 
-export { $$About as default, $$file as file, $$url as url };
+const about = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+	__proto__: null,
+	default: $$About,
+	file: $$file,
+	url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+export { $$CallToAction as $, $$ContactCTA as a, about as b };

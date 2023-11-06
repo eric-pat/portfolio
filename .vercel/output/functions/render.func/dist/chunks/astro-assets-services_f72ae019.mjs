@@ -1,4 +1,4 @@
-import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, M as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, a as UnsupportedImageConversion, b as InvalidImageService, c as ExpectedImageOptions, d as MissingSharp } from './astro_9d89acda.mjs';
+import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, M as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, a as UnsupportedImageConversion, b as InvalidImageService, c as ExpectedImageOptions, d as MissingSharp } from './astro_1aa3d2dc.mjs';
 
 function prependForwardSlash(path) {
   return path[0] === "/" ? path : "/" + path;

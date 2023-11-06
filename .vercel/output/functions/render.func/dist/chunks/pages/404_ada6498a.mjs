@@ -1,4 +1,4 @@
-import { e as createAstro, f as createComponent, r as renderTemplate, g as addAttribute, m as maybeRenderHead, s as spreadAttributes, u as unescapeHTML, h as renderComponent, i as renderHead, j as renderSlot } from '../astro_9d89acda.mjs';
+import { e as createAstro, f as createComponent, r as renderTemplate, g as addAttribute, m as maybeRenderHead, s as spreadAttributes, u as unescapeHTML, h as renderComponent, i as renderHead, j as renderSlot } from '../astro_1aa3d2dc.mjs';
 import 'clsx';
 /* empty css                           *//* empty css                           */
 var __freeze = Object.freeze;
@@ -151,4 +151,4 @@ const _404 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 	url: $$url
 }, Symbol.toStringTag, { value: 'Module' }));
 
-export { $$Icon as $, _404 as _, $$BaseLayout as a, $$Hero as b };
+export { $$Icon as $, _404 as _, $$Hero as a, $$BaseLayout as b };

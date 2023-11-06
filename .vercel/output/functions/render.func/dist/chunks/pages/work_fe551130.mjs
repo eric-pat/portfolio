@@ -1,11 +1,11 @@
-import { e as createAstro, f as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead } from '../astro_9d89acda.mjs';
+import { e as createAstro, f as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead } from '../astro_1aa3d2dc.mjs';
 import 'clsx';
-import { g as getCollection, $ as $$ContactCTA } from './__1ab0619f.mjs';
-import { b as $$Hero, a as $$BaseLayout } from './404_725f1d28.mjs';
-import { $ as $$Grid, a as $$PortfolioPreview } from './index_6513f4f5.mjs';
+import { g as getCollection, $ as $$Grid, a as $$PortfolioPreview } from './index_3684fbcc.mjs';
+import { a as $$Hero, b as $$BaseLayout } from './404_ada6498a.mjs';
+import { a as $$ContactCTA } from './about_f0f7b983.mjs';
 import 'html-escaper';
-import '../astro-assets-services_d08b78ec.mjs';
-/* empty css                           *//* empty css                           *//* empty css                            *//* empty css                           *//* empty css                           *//* empty css                           *//* empty css                           */
+import '../astro-assets-services_f72ae019.mjs';
+/* empty css                           *//* empty css                           *//* empty css                           *//* empty css                           *//* empty css                           *//* empty css                           *//* empty css                           */
 const $$Astro = createAstro();
 const $$Work = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
