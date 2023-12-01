@@ -2,13 +2,13 @@ import { f as createComponent, r as renderTemplate, m as maybeRenderHead, u as u
 import 'clsx';
 import 'html-escaper';
 
-const html = "<p>Site personnel avec backend easyadmin</p>";
+const html = "<p>Site personnel epweb.fr</p>";
 
-				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Symfony","EasyAdmin","Bootstrap","o2switch"]};
+				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Astro","React","Tailwind","o2switch"]};
 				const file = "/Users/eric-pat/portfolio/src/content/work/epweb.md";
 				const url = undefined;
 				function rawContent() {
-					return "\nSite personnel avec backend easyadmin\n";
+					return "\nSite personnel epweb.fr\n";
 				}
 				function compiledContent() {
 					return html;

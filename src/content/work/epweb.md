@@ -6,10 +6,10 @@ img_alt: Image du site EP Web
 description: |
   Site créé pour moi...
 tags:
-  - Symfony
-  - EasyAdmin
-  - Bootstrap
+  - Astro
+  - React
+  - Tailwind
   - o2switch
 ---
 
-Site personnel avec backend easyadmin
+Site personnel epweb.fr
