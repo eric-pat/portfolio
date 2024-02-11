@@ -203,6 +203,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"meca-comale.md": {
+	id: "meca-comale.md";
+  slug: "meca-comale";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "portfolio.md": {
 	id: "portfolio.md";
   slug: "portfolio";
