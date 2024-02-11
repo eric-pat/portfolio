@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","meca-comale":"/src/content/work/meca-comale.md","editions-le-garage":"/src/content/work/editions-le-garage.md","cse":"/src/content/work/cse.md","epweb":"/src/content/work/epweb.md","portfolio":"/src/content/work/portfolio.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","portfolio":"/src/content/work/portfolio.md","cse":"/src/content/work/cse.md","epweb":"/src/content/work/epweb.md","meca-comale":"/src/content/work/meca-comale.md","editions-le-garage":"/src/content/work/editions-le-garage.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
