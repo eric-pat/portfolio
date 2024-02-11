@@ -16,3 +16,5 @@ tags:
 Ici, on parle de grandes et de petites voitures de collection, de miniatures et de jouets automobiles
 
 Les Éditions LE GARAGE, passion et collection, souhaitent apporter leurs services et leur savoir-faire à tous les amateurs de voitures anciennes ou modernes, ainsi qu'à tous les collectionneurs passionnés de modèles réduits, de miniatures, de jouets automobiles en tôle ou en bois et d'Automobilia.
+
+https://www.editions-legarage.fr
