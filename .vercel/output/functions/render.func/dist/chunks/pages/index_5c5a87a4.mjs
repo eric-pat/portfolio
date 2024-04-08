@@ -2,7 +2,7 @@ import { A as AstroError, l as UnknownContentCollectionError, f as createCompone
 import { p as prependForwardSlash } from '../astro-assets-services_f72ae019.mjs';
 import 'clsx';
 import { $ as $$Icon, a as $$Hero, b as $$BaseLayout } from './404_ada6498a.mjs';
-import { $ as $$CallToAction, a as $$ContactCTA } from './about_f0f7b983.mjs';
+import { $ as $$CallToAction, a as $$ContactCTA } from './about_dabfde16.mjs';
 /* empty css                           *//* empty css                           *//* empty css                           */
 function createCollectionToGlobResultMap({
   globResult,
@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"cse":"/src/content/work/cse.md","chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","epweb":"/src/content/work/epweb.md","portfolio":"/src/content/work/portfolio.md","meca-comale":"/src/content/work/meca-comale.md","editions-le-garage":"/src/content/work/editions-le-garage.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","meca-comale":"/src/content/work/meca-comale.md","epweb":"/src/content/work/epweb.md","portfolio":"/src/content/work/portfolio.md","cse":"/src/content/work/cse.md","editions-le-garage":"/src/content/work/editions-le-garage.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
