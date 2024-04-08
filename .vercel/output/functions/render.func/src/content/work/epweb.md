@@ -6,9 +6,9 @@ img_alt: Image du site EP Web
 description: |
   Site créé pour moi...
 tags:
-  - Astro
-  - React
-  - Tailwind
+  - Symfony
+  - EasyAdmin
+  - Bootstrap
   - o2switch
 ---
 

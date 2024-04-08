@@ -4,7 +4,7 @@ import 'html-escaper';
 
 const html = "<p>Site personnel epweb.fr</p>\n<p><a href=\"https://epweb.fr\">https://epweb.fr</a></p>";
 
-				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Astro","React","Tailwind","o2switch"]};
+				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Symfony","EasyAdmin","Bootstrap","o2switch"]};
 				const file = "/Users/eric-pat/portfolio/src/content/work/epweb.md";
 				const url = undefined;
 				function rawContent() {
