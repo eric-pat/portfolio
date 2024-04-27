@@ -1,7 +1,7 @@
 const id = "portfolio.md";
 						const collection = "work";
 						const slug = "portfolio";
-						const body = "\nSite personnel réalisé avec Astro et hébergé sur Vercel.\n\n[mon portfolio](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)\n";
+						const body = "\nSite personnel réalisé avec Astro et hébergé sur Vercel.\n\n[portfolio-eric-patrouillault](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)\n";
 						const data = {title:"Portfolio",description:"Porfolio de Eric Patrouillault.\n",publishDate:new Date(1699142400000),tags:["Astro","Vercel"],img:"/assets/portfolio.webp",img_alt:"Image du porfolio de Eric Patrouillault."};
 						const _internal = {
 							type: 'content',

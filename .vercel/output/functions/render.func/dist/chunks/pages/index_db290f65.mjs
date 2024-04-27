@@ -164,7 +164,7 @@ function isPropagatedAssetsModule(module) {
 
 const contentDir = '/src/content/';
 
-const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_ea1e077c.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_6441c3c4.mjs'),"/src/content/work/epweb.md": () => import('../epweb_0eea4d91.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_e7696316.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_fb307f5e.mjs')
+const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_89fb21e6.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_6441c3c4.mjs'),"/src/content/work/epweb.md": () => import('../epweb_0eea4d91.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_e7696316.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_34c01f9e.mjs')
 
 });
 const contentCollectionToEntryMap = createCollectionToGlobResultMap({
@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","cse":"/src/content/work/cse.md","editions-le-garage":"/src/content/work/editions-le-garage.md","epweb":"/src/content/work/epweb.md","meca-comale":"/src/content/work/meca-comale.md","portfolio":"/src/content/work/portfolio.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"editions-le-garage":"/src/content/work/editions-le-garage.md","epweb":"/src/content/work/epweb.md","meca-comale":"/src/content/work/meca-comale.md","portfolio":"/src/content/work/portfolio.md","cse":"/src/content/work/cse.md","chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -196,7 +196,7 @@ function createGlobLookup(glob) {
 	};
 }
 
-const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_eff6de75.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_b8da46b2.mjs'),"/src/content/work/epweb.md": () => import('../epweb_e2401f72.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_de0db0a0.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_07c6ad2f.mjs')
+const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_dc0629e3.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_b8da46b2.mjs'),"/src/content/work/epweb.md": () => import('../epweb_e2401f72.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_de0db0a0.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_90309b34.mjs')
 
 });
 const collectionToRenderEntryMap = createCollectionToGlobResultMap({

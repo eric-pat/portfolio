@@ -2,13 +2,13 @@ import { f as createComponent, r as renderTemplate, m as maybeRenderHead, u as u
 import 'clsx';
 import 'html-escaper';
 
-const html = "<p>Site personnel réalisé avec Astro et hébergé sur Vercel.</p>\n<p><a href=\"https://portfolio-eric-patrouillault.vercel.app/work/portfolio\">mon portfolio</a></p>";
+const html = "<p>Site personnel réalisé avec Astro et hébergé sur Vercel.</p>\n<p><a href=\"https://portfolio-eric-patrouillault.vercel.app/work/portfolio\">portfolio-eric-patrouillault</a></p>";
 
 				const frontmatter = {"title":"Portfolio","publishDate":"2023-11-05T00:00:00.000Z","img":"/assets/portfolio.webp","img_alt":"Image du porfolio de Eric Patrouillault.","description":"Porfolio de Eric Patrouillault.\n","tags":["Astro","Vercel"]};
 				const file = "/Users/eric-pat/portfolio/src/content/work/portfolio.md";
 				const url = undefined;
 				function rawContent() {
-					return "\nSite personnel réalisé avec Astro et hébergé sur Vercel.\n\n[mon portfolio](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)\n";
+					return "\nSite personnel réalisé avec Astro et hébergé sur Vercel.\n\n[portfolio-eric-patrouillault](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)\n";
 				}
 				function compiledContent() {
 					return html;

@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./portfolio_dc033577.mjs');
+						return import('./chez-nos-producteurs_285570da.mjs');
 					}
 					const collectedLinks = "@@ASTRO-LINKS@@";
 					const collectedStyles = "@@ASTRO-STYLES@@";

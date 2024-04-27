@@ -23,4 +23,4 @@ Mais alors, comment tout cela fonctionne ?
 - Il passe commande et le producteur, immédiatement prévenu, lance la préparation.
 - Une fois préparée, le consommateur récupère sa commande et déguste des bons produits locaux.
 
-https://www.chez-nos-producteurs.fr
+[chez-nos-producteurs.fr](https://www.chez-nos-producteurs.fr)

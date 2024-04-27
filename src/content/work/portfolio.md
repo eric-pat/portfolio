@@ -12,4 +12,4 @@ tags:
 
 Site personnel réalisé avec Astro et hébergé sur Vercel.
 
-[mon portfolio](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)
+[portfolio-eric-patrouillault](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)
