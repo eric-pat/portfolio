@@ -1,6 +1,6 @@
 import { e as createAstro, f as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead } from '../astro_1aa3d2dc.mjs';
 import 'clsx';
-import { g as getCollection, $ as $$Grid, a as $$PortfolioPreview } from './index_7402465e.mjs';
+import { g as getCollection, $ as $$Grid, a as $$PortfolioPreview } from './index_538fc64c.mjs';
 import { a as $$Hero, b as $$BaseLayout } from './404_ada6498a.mjs';
 import { a as $$ContactCTA } from './about_dabfde16.mjs';
 import 'html-escaper';

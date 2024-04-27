@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","cse":"/src/content/work/cse.md","epweb":"/src/content/work/epweb.md","editions-le-garage":"/src/content/work/editions-le-garage.md","portfolio":"/src/content/work/portfolio.md","meca-comale":"/src/content/work/meca-comale.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","cse":"/src/content/work/cse.md","epweb":"/src/content/work/epweb.md","editions-le-garage":"/src/content/work/editions-le-garage.md","meca-comale":"/src/content/work/meca-comale.md","portfolio":"/src/content/work/portfolio.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -230,7 +230,7 @@ const $$PortfolioPreview = createComponent(async ($$result, $$props, $$slots) =>
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$PortfolioPreview;
   const { data, slug } = Astro2.props.project;
-  return renderTemplate`${maybeRenderHead()}<a class="card"${addAttribute(`/work/${slug}`, "href")} data-astro-cid-lgkm4u2a><span class="title" data-astro-cid-lgkm4u2a>${data.title}</span><img${addAttribute(data.img, "src")}${addAttribute(data.img_alt || "", "alt")} loading="lazy" decoding="async" data-astro-cid-lgkm4u2a></a>`;
+  return renderTemplate`${maybeRenderHead()}<a class="card"${addAttribute(`/work/${slug}`, "href")} target="_blank" data-astro-cid-lgkm4u2a><span class="title" data-astro-cid-lgkm4u2a>${data.title}</span><img${addAttribute(data.img, "src")}${addAttribute(data.img_alt || "", "alt")} loading="lazy" decoding="async" data-astro-cid-lgkm4u2a></a>`;
 }, "/Users/eric-pat/portfolio/src/components/PortfolioPreview.astro", void 0);
 
 const $$Astro$1 = createAstro();
