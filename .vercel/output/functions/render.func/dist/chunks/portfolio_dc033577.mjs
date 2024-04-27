@@ -2,13 +2,13 @@ import { f as createComponent, r as renderTemplate, m as maybeRenderHead, u as u
 import 'clsx';
 import 'html-escaper';
 
-const html = "<p>Site personnel <a href=\"https://epweb.fr\">epweb.fr</a>{:target=“_blank”}</p>";
+const html = "<p>Site personnel réalisé avec Astro et hébergé sur Vercel.</p>\n<p><a href=\"https://portfolio-eric-patrouillault.vercel.app/work/portfolio\">mon portfolio</a></p>";
 
-				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Symfony","EasyAdmin","Bootstrap","o2switch"]};
-				const file = "/Users/eric-pat/portfolio/src/content/work/epweb.md";
+				const frontmatter = {"title":"Portfolio","publishDate":"2023-11-05T00:00:00.000Z","img":"/assets/portfolio.webp","img_alt":"Image du porfolio de Eric Patrouillault.","description":"Porfolio de Eric Patrouillault.\n","tags":["Astro","Vercel"]};
+				const file = "/Users/eric-pat/portfolio/src/content/work/portfolio.md";
 				const url = undefined;
 				function rawContent() {
-					return "\nSite personnel [epweb.fr](https://epweb.fr){:target=\"_blank\"}\n";
+					return "\nSite personnel réalisé avec Astro et hébergé sur Vercel.\n\n[mon portfolio](https://portfolio-eric-patrouillault.vercel.app/work/portfolio)\n";
 				}
 				function compiledContent() {
 					return html;

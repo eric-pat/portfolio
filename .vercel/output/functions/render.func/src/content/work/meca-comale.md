@@ -17,4 +17,4 @@ Site vitrine pour l'entreprise Méca Comale, spécialisée dans la motoculture.
 
 Le site Méca Comale propose également une fonctionnalité de backend permettant aux administrateurs de modifier les contenus du site (photos, forfaits, texte ...).
 
-https://mecacomale.fr
+[mecacomale.fr](https://mecacomale.fr)

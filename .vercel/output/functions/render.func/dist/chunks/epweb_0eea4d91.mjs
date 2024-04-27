@@ -1,7 +1,7 @@
 const id = "epweb.md";
 						const collection = "work";
 						const slug = "epweb";
-						const body = "\nSite personnel [epweb.fr](https://epweb.fr){:target=\"_blank\"}\n";
+						const body = "\nSite personnel [epweb.fr](https://epweb.fr)\n";
 						const data = {title:"EP Web",description:"Site créé pour moi...\n",publishDate:new Date(1696118400000),tags:["Symfony","EasyAdmin","Bootstrap","o2switch"],img:"/assets/epweb.webp",img_alt:"Image du site EP Web"};
 						const _internal = {
 							type: 'content',

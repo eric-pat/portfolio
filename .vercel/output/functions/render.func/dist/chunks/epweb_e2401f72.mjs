@@ -1,5 +1,5 @@
 async function getMod() {
-						return import('./epweb_8dfd547e.mjs');
+						return import('./epweb_cee57dd2.mjs');
 					}
 					const collectedLinks = "@@ASTRO-LINKS@@";
 					const collectedStyles = "@@ASTRO-STYLES@@";
