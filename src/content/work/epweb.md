@@ -12,6 +12,4 @@ tags:
   - o2switch
 ---
 
-Site personnel epweb.fr
-
-https://epweb.fr
+Site personnel [epweb.fr](https://epweb.fr){:target="_blank"}

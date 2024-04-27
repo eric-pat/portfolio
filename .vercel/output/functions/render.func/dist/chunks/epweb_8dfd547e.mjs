@@ -2,13 +2,13 @@ import { f as createComponent, r as renderTemplate, m as maybeRenderHead, u as u
 import 'clsx';
 import 'html-escaper';
 
-const html = "<p>Site personnel epweb.fr</p>\n<p><a href=\"https://epweb.fr\">https://epweb.fr</a></p>";
+const html = "<p>Site personnel <a href=\"https://epweb.fr\">epweb.fr</a>{:target=“_blank”}</p>";
 
 				const frontmatter = {"title":"EP Web","publishDate":"2023-10-01T00:00:00.000Z","img":"/assets/epweb.webp","img_alt":"Image du site EP Web","description":"Site créé pour moi...\n","tags":["Symfony","EasyAdmin","Bootstrap","o2switch"]};
 				const file = "/Users/eric-pat/portfolio/src/content/work/epweb.md";
 				const url = undefined;
 				function rawContent() {
-					return "\nSite personnel epweb.fr\n\nhttps://epweb.fr\n";
+					return "\nSite personnel [epweb.fr](https://epweb.fr){:target=\"_blank\"}\n";
 				}
 				function compiledContent() {
 					return html;

@@ -164,7 +164,7 @@ function isPropagatedAssetsModule(module) {
 
 const contentDir = '/src/content/';
 
-const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_ea1e077c.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_485200d8.mjs'),"/src/content/work/epweb.md": () => import('../epweb_890408e0.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_e4ac4c15.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_a9e54e0e.mjs')
+const contentEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_ea1e077c.mjs'),"/src/content/work/cse.md": () => import('../cse_42487896.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_485200d8.mjs'),"/src/content/work/epweb.md": () => import('../epweb_c678d898.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_e4ac4c15.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_a9e54e0e.mjs')
 
 });
 const contentCollectionToEntryMap = createCollectionToGlobResultMap({
@@ -185,7 +185,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","cse":"/src/content/work/cse.md","epweb":"/src/content/work/epweb.md","editions-le-garage":"/src/content/work/editions-le-garage.md","meca-comale":"/src/content/work/meca-comale.md","portfolio":"/src/content/work/portfolio.md"}}};
+lookupMap = {"work":{"type":"content","entries":{"chez-nos-producteurs":"/src/content/work/chez-nos-producteurs.md","epweb":"/src/content/work/epweb.md","meca-comale":"/src/content/work/meca-comale.md","portfolio":"/src/content/work/portfolio.md","editions-le-garage":"/src/content/work/editions-le-garage.md","cse":"/src/content/work/cse.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {
@@ -196,7 +196,7 @@ function createGlobLookup(glob) {
 	};
 }
 
-const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_eff6de75.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_d329b69a.mjs'),"/src/content/work/epweb.md": () => import('../epweb_5a36a1f7.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_8ac86bef.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_ed2a55a3.mjs')
+const renderEntryGlob = /* #__PURE__ */ Object.assign({"/src/content/work/chez-nos-producteurs.md": () => import('../chez-nos-producteurs_eff6de75.mjs'),"/src/content/work/cse.md": () => import('../cse_98ee5bbf.mjs'),"/src/content/work/editions-le-garage.md": () => import('../editions-le-garage_d329b69a.mjs'),"/src/content/work/epweb.md": () => import('../epweb_d5cb6fc4.mjs'),"/src/content/work/meca-comale.md": () => import('../meca-comale_8ac86bef.mjs'),"/src/content/work/portfolio.md": () => import('../portfolio_ed2a55a3.mjs')
 
 });
 const collectionToRenderEntryMap = createCollectionToGlobResultMap({
@@ -230,7 +230,7 @@ const $$PortfolioPreview = createComponent(async ($$result, $$props, $$slots) =>
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$PortfolioPreview;
   const { data, slug } = Astro2.props.project;
-  return renderTemplate`${maybeRenderHead()}<a class="card"${addAttribute(`/work/${slug}`, "href")} target="_blank" data-astro-cid-lgkm4u2a><span class="title" data-astro-cid-lgkm4u2a>${data.title}</span><img${addAttribute(data.img, "src")}${addAttribute(data.img_alt || "", "alt")} loading="lazy" decoding="async" data-astro-cid-lgkm4u2a></a>`;
+  return renderTemplate`${maybeRenderHead()}<a class="card"${addAttribute(`/work/${slug}`, "href")} data-astro-cid-lgkm4u2a><span class="title" data-astro-cid-lgkm4u2a>${data.title}</span><img${addAttribute(data.img, "src")}${addAttribute(data.img_alt || "", "alt")} loading="lazy" decoding="async" data-astro-cid-lgkm4u2a></a>`;
 }, "/Users/eric-pat/portfolio/src/components/PortfolioPreview.astro", void 0);
 
 const $$Astro$1 = createAstro();
